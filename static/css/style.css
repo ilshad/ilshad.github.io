@@ -134,6 +134,7 @@ table td {
 #services {
     font-size: 80%;
     width: 200px;
+    padding-top: 10px;
 }
 
 #services a.service {
