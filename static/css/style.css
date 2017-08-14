@@ -79,17 +79,6 @@ table td {
     margin-right: 20px;
 }
 
-#name {
-    font-family: 'Arvo', arial, serif;
-    font-weight: bold;
-    font-size: 26pt;
-    line-height: 45pt;
-}
-
-#name {
-    color: #93a1a1;
-}
-
 #description {
     font-family: 'Droid Sans', arial, serif; 
     font-size: 12pt;
