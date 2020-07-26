@@ -1,27 +1,42 @@
 body {
     font-family: monospace;
+    font-size: 150%;
 }
 
-h1 {
-    font-size: 24px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0;
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.social-links {
-    font-size: 20px;
-    font-style: normal;
-    font-variant: normal;
-    line-height: 40px;
+.section {
+    grid-column: span 1;
+    padding: 10px;
 }
 
-.social-links a {
+.section.block {
+    grid-column: span 2;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+	grid-column: span 2;
+    }
+}
+
+a {
     color: black;
+}   
+
+a:hover {
+    color: #e53e3e;
 }
 
-.userpic {
-    border: 1px solid #777;
+.greeting {
+    font-size: 120%;
+    padding-top: 0;
 }
+
+.text-center {
+    text-align: center;
+}
+
